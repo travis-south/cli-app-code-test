@@ -1,7 +1,7 @@
 {
     "name": "travis-south/cli-app-code-test",
     "description": "CLI App code test",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [{
         "name": "Irvin Capagcuan",
