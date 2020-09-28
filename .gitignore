@@ -1,0 +1,8 @@
+/vendor
+.env
+.phpunit*
+/tests/reports/*
+!/tests/reports/.gitkeep
+/tests/*.csv
+/tests/*.yml
+/tests/*json

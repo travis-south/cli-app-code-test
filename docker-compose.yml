@@ -1,0 +1,8 @@
+version: "3.8"
+
+services: 
+    cli-app-code-test:
+        build: ./
+        volumes:
+            - ./:/var/app:delegated
+        working_dir: /var/app
