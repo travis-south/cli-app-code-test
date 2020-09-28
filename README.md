@@ -2,12 +2,13 @@
 Converts your input data (csv, json, yml) to different formats (csv, json, yml). It also accepts local or remote file.
 
 ## Requirement(s)
--   PHP CLI (7.4.9 or higher)
--   Composer
+-   Docker
+-   Docker Compose
 
 ## How to use
-1.   Install the cli globally via `composer global require travis-south/cli-app-code-test`.
-1.   Run via `composer global run cli-app`.
+1.   After cloning, run `docker-compose build` to build your env.
+1.   Run `docker-compose run --rm -T ${PWD##*/} composer install`.
+1.   Run `docker-compose run --rm -T ${PWD##*/} ./bin/cli-app` to run the application.
 
 ## Contributing
 Refer to [CONTRIBUTING.md](CONTRIBUTING.md).
