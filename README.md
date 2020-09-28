@@ -10,4 +10,4 @@ Converts your input data (csv, json, yml) to different formats (csv, json, yml).
 1.   Run via `composer global run cli-app`.
 
 ## Contributing
-Refer to [CONTRIBUTING.md].
+Refer to [CONTRIBUTING.md](CONTRIBUTING.md).
