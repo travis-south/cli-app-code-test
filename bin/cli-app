@@ -1,4 +1,5 @@
 #!/usr/bin/env php
 <?php
 
+ini_set('display_errors', false);
 require_once __DIR__ . '/../src/index.php';

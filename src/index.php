@@ -54,7 +54,11 @@ if (!$command || $getOpt->getOption('help')) {
 try {
     call_user_func($command->getHandler(), $getOpt);
 } catch (\Exception $exception) {
-    file_put_contents('php://stderr', $exception->getMessage() . PHP_EOL);
+    file_put_contents('php://stderr', "\n" . $exception->getMessage() . PHP_EOL . "\n");
+    echo $getOpt->getHelpText();
+    exit;
+} catch (\Error $error) {
+    file_put_contents('php://stderr', "\nThere has been an error. Please ensure the your input file is valid" . PHP_EOL . "\n");
     echo $getOpt->getHelpText();
     exit;
 }
