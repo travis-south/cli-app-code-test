@@ -58,7 +58,7 @@ try {
     echo $getOpt->getHelpText();
     exit;
 } catch (\Error $error) {
-    file_put_contents('php://stderr', "\nThere has been an error. Please ensure the your input file is valid" . PHP_EOL . "\n");
+    file_put_contents('php://stderr', "\nThere has been an error. Please ensure the your input file and data is valid" . PHP_EOL . "\n");
     echo $getOpt->getHelpText();
     exit;
 }
