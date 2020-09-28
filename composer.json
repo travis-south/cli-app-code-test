@@ -29,5 +29,5 @@
             "Tests\\": "tests/"
         }
     },
-    "bin": ["bin/app"]
+    "bin": ["bin/cli-app"]
 }
