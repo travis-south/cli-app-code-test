@@ -2,7 +2,7 @@
 Converts your input data (csv, json, yml) to different formats (csv, json, yml). It also accepts local or remote file.
 
 ## Requirement(s)
--   PHP CLI
+-   PHP CLI (7.4.9 or higher)
 -   Composer
 
 ## How to use
